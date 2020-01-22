@@ -1,3 +1,4 @@
+=begin
 def square_array(array)
   new_array = []
   
@@ -7,3 +8,7 @@ def square_array(array)
   
   return new_array
 end
+=end
+
+def square_array(array)
+  array.collect{
