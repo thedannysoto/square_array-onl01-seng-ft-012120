@@ -11,4 +11,4 @@ end
 =end
 
 def square_array(array)
-  array.collect{
+  array.collect {|x| 
